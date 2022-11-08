@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="547px" preserveAspectRatio="none" style="width:796px;height:547px;" version="1.1" viewBox="0 0 796 547" width="796px" zoomAndPan="magnify"><defs/><g><g id="elem_Android"><rect fill="#0B0B0B" height="36.9766" style="stroke:#181818;stroke-width:0.5;" width="74" x="438.5" y="504"/><text fill="#Fdfdfd" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;" font-size="14" lengthAdjust="spacing" textLength="56" x="445.5" y="519.5352">Android</text><text fill="#Fdfdfd" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;" font-size="14" lengthAdjust="spacing" textLength="58" x="446.5" y="536.0234">(default)</text></g><g id="elem_iOS"><rect fill="#0B0B0B" height="20.4883" style="stroke:#181818;stroke-width:0.5;" width="37" x="507" y="411"/><text fill="#Fdfdfd" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;" font-size="14" lengthAdjust="spacing" textLength="23" x="514" y="426.5352">iOS</text></g><g id="elem_WebMobile"><rect fill="#0B0B0B" height="20.4883" style="stroke:#181818;stroke-width:0.5;" width="89" x="7" y="411"/><text fill="#Fdfdfd" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;" font-size="14" lengthAdjust="spacing" textLength="75" x="14" y="426.5352">WebMobile</text></g><g id="elem_Tablet"><rect fill="#0B0B0B" height="20.4883" style="stroke:#181818;stroke-width:0.5;" width="57" x="429" y="201"/><text fill="#Fdfdfd" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;" font-size="14" lengthAdjust="spacing" textLength="43" x="436" y="216.5352">Tablet</text></g><g id="elem_AndroidTablet"><rect fill="#0B0B0B" height="20.4883" style="stroke:#181818;stroke-width:0.5;" width="113" x="340" y="314"/><text fill="#Fdfdfd" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;" font-size="14" lengthAdjust="spacing" textLength="99" x="347" y="329.5352">AndroidTablet</text></g><g id="elem_IPad"><rect fill="#0B0B0B" height="20.4883" style="stroke:#181818;stroke-width:0.5;" width="43" x="504" y="314"/><text fill="#Fdfdfd" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;" font-size="14" lengthAdjust="spacing" textLength="29" x="511" y="329.5352">IPad</text></g><g id="elem_Web"><rect fill="#0B0B0B" height="20.4883" style="stroke:#181818;stroke-width:0.5;" width="43" x="241" y="512"/><text fill="#Fdfdfd" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;" font-size="14" lengthAdjust="spacing" textLength="29" x="248" y="527.5352">Web</text></g><g id="elem_WebTablet"><rect fill="#0B0B0B" height="20.4883" style="stroke:#181818;stroke-width:0.5;" width="86" x="147.5" y="411"/><text fill="#Fdfdfd" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;" font-size="14" lengthAdjust="spacing" textLength="72" x="154.5" y="426.5352">WebTablet</text></g><g id="elem_WebDesktop"><rect fill="#0B0B0B" height="20.4883" style="stroke:#181818;stroke-width:0.5;" width="99" x="285" y="411"/><text fill="#Fdfdfd" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;" font-size="14" lengthAdjust="spacing" textLength="85" x="292" y="426.5352">WebDesktop</text></g><g id="elem_MacOS"><rect fill="#0B0B0B" height="20.4883" style="stroke:#181818;stroke-width:0.5;" width="60" x="537.5" y="201"/><text fill="#Fdfdfd" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;" font-size="14" lengthAdjust="spacing" textLength="46" x="544.5" y="216.5352">MacOS</text></g><g id="elem_Desktop"><rect fill="#0B0B0B" height="20.4883" style="stroke:#181818;stroke-width:0.5;" width="70" x="307.5" y="201"/><text fill="#Fdfdfd" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;" font-size="14" lengthAdjust="spacing" textLength="56" x="314.5" y="216.5352">Desktop</text></g><g id="elem_Wear"><rect fill="#0B0B0B" height="20.4883" style="stroke:#181818;stroke-width:0.5;" width="48" x="607.5" y="411"/><text fill="#Fdfdfd" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;" font-size="14" lengthAdjust="spacing" textLength="34" x="614.5" y="426.5352">Wear</text></g><g id="elem_WearOS"><rect fill="#0B0B0B" height="20.4883" style="stroke:#181818;stroke-width:0.5;" width="67" x="598" y="314"/><text fill="#Fdfdfd" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;" font-size="14" lengthAdjust="spacing" textLength="53" x="605" y="329.5352">WearOS</text></g><g id="elem_WatchOS"><rect fill="#0B0B0B" height="20.4883" style="stroke:#181818;stroke-width:0.5;" width="74" x="716.5" y="314"/><text fill="#Fdfdfd" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;" font-size="14" lengthAdjust="spacing" textLength="60" x="723.5" y="329.5352">WatchOS</text></g><g id="elem_TV"><rect fill="#0B0B0B" height="20.4883" style="stroke:#181818;stroke-width:0.5;" width="32" x="441.5" y="104"/><text fill="#Fdfdfd" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;" font-size="14" lengthAdjust="spacing" textLength="18" x="448.5" y="119.5352">TV</text></g><g id="elem_AndroidTV"><rect fill="#0B0B0B" height="20.4883" style="stroke:#181818;stroke-width:0.5;" width="88" x="353.5" y="7"/><text fill="#Fdfdfd" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;" font-size="14" lengthAdjust="spacing" textLength="74" x="360.5" y="22.5352">AndroidTV</text></g><g id="elem_TvOS"><rect fill="#0B0B0B" height="20.4883" style="stroke:#181818;stroke-width:0.5;" width="49" x="493" y="7"/><text fill="#Fdfdfd" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;" font-size="14" lengthAdjust="spacing" textLength="35" x="500" y="22.5352">TvOS</text></g><!--MD5=[9f2e7bfea44220c31c9fab11907f785a]
+link iOS to Android--><g id="link_iOS_Android"><path codeLine="36" d="M516.79,439.24 C509.02,454.64 497.52,477.4 488.63,495.01 " fill="none" id="iOS-to-Android" style="stroke:#61AFEF;stroke-width:1.0;"/><polygon fill="#61AFEF" points="486.2,499.82,493.8346,493.598,488.4589,495.3594,486.6975,489.9837,486.2,499.82" style="stroke:#61AFEF;stroke-width:1.0;"/></g><!--MD5=[789e4599262299c2cd0bbd34bbfedc74]
+link WebMobile to Web--><g id="link_WebMobile_Web"><path codeLine="37" d="M87.77,439.02 C127.17,457.51 189.64,486.82 228.24,504.92 " fill="none" id="WebMobile-to-Web" style="stroke:#61AFEF;stroke-width:1.0;"/><polygon fill="#61AFEF" points="232.82,507.08,226.3764,499.6315,228.2949,504.9531,222.9733,506.8716,232.82,507.08" style="stroke:#61AFEF;stroke-width:1.0;"/></g><!--MD5=[fa97d26fa3999daceb747af627728dba]
+link Tablet to IPad--><g id="link_Tablet_IPad"><path codeLine="38" d="M468.12,229.34 C480.05,248.81 499.42,280.42 512.3,301.46 " fill="none" id="Tablet-to-IPad" style="stroke:#61AFEF;stroke-width:1.0;"/><polygon fill="#61AFEF" points="514.95,305.78,513.6489,296.0175,512.3335,301.5193,506.8317,300.2039,514.95,305.78" style="stroke:#61AFEF;stroke-width:1.0;"/><text fill="#Fdfdfd" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;" font-size="13" lengthAdjust="spacing" textLength="34" x="497.5" y="272.5684">if iOS</text></g><!--MD5=[aa45d224d89327770525b82e907574d4]
+link Tablet to AndroidTablet--><g id="link_Tablet_AndroidTablet"><path codeLine="39" d="M445.4,229.04 C439.4,237.8 432.23,248.77 426.5,259 C418.87,272.61 411.42,288.48 405.86,301.02 " fill="none" id="Tablet-to-AndroidTablet" style="stroke:#61AFEF;stroke-width:1.0;"/><polygon fill="#61AFEF" points="403.74,305.82,411.0294,299.1969,405.7561,301.2445,403.7085,295.9712,403.74,305.82" style="stroke:#61AFEF;stroke-width:1.0;"/><text fill="#Fdfdfd" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;" font-size="13" lengthAdjust="spacing" textLength="25" x="427.5" y="272.5684">else</text></g><!--MD5=[987411b72b74138d0bc6cf07fd23f81e]
+link AndroidTablet to Android--><g id="link_AndroidTablet_Android"><path codeLine="40" d="M403.37,342.05 C417.22,376.42 448.57,454.2 465.01,494.96 " fill="none" id="AndroidTablet-to-Android" style="stroke:#61AFEF;stroke-width:1.0;"/><polygon fill="#61AFEF" points="466.93,499.74,467.2753,489.8972,465.0608,495.1026,459.8554,492.888,466.93,499.74" style="stroke:#61AFEF;stroke-width:1.0;"/></g><!--MD5=[f82a3ec2c0a4109892c787e911c0c477]
+link IPad to iOS--><g id="link_IPad_iOS"><path codeLine="41" d="M525.5,342.42 C525.5,357.96 525.5,380.78 525.5,397.66 " fill="none" id="IPad-to-iOS" style="stroke:#61AFEF;stroke-width:1.0;"/><polygon fill="#61AFEF" points="525.5,402.69,529.5,393.69,525.5,397.69,521.5,393.69,525.5,402.69" style="stroke:#61AFEF;stroke-width:1.0;"/></g><!--MD5=[0b535aee82e24c7484b62624bf0b6c52]
+link Web to Android--><g id="link_Web_Android"><path codeLine="42" d="M292.04,522 C336.43,522 380.82,522 425.22,522 " fill="none" id="Web-to-Android" style="stroke:#61AFEF;stroke-width:1.0;"/><polygon fill="#61AFEF" points="430.35,522,421.35,518,425.35,522,421.35,526,430.35,522" style="stroke:#61AFEF;stroke-width:1.0;"/></g><!--MD5=[2f7448f7e1e8278cb26e1f92b2659baa]
+link WebTablet to Web--><g id="link_WebTablet_Web"><path codeLine="43" d="M203.04,439.24 C215.22,456 233.76,481.48 246.89,499.53 " fill="none" id="WebTablet-to-Web" style="stroke:#61AFEF;stroke-width:1.0;"/><polygon fill="#61AFEF" points="250.1,503.95,248.0374,494.3196,247.1574,499.9076,241.5694,499.0276,250.1,503.95" style="stroke:#61AFEF;stroke-width:1.0;"/></g><!--MD5=[f9f9a6427af7bebc0260f1412b1cd5da]
+link WebDesktop to Web--><g id="link_WebDesktop_Web"><path codeLine="44" d="M321.96,439.24 C309.78,456 291.24,481.48 278.11,499.53 " fill="none" id="WebDesktop-to-Web" style="stroke:#61AFEF;stroke-width:1.0;"/><polygon fill="#61AFEF" points="274.9,503.95,283.4306,499.0276,277.8426,499.9076,276.9626,494.3196,274.9,503.95" style="stroke:#61AFEF;stroke-width:1.0;"/></g><!--MD5=[49d53690496509c62efc1d629fe3e8b7]
+link MacOS to IPad--><g id="link_MacOS_IPad"><path codeLine="45" d="M560.94,229.34 C553.63,248.65 541.81,279.89 533.85,300.93 " fill="none" id="MacOS-to-IPad" style="stroke:#61AFEF;stroke-width:1.0;"/><polygon fill="#61AFEF" points="532.02,305.78,538.9512,298.783,533.7928,301.1048,531.471,295.9465,532.02,305.78" style="stroke:#61AFEF;stroke-width:1.0;"/></g><!--MD5=[c20b020cf34b8f7e7b9fcfb90477f2ad]
+link Desktop to AndroidTablet--><g id="link_Desktop_AndroidTablet"><path codeLine="46" d="M349.45,229.04 C354.87,242.05 362.76,260.34 370.5,276 C374.6,284.31 379.44,293.25 383.82,301.08 " fill="none" id="Desktop-to-AndroidTablet" style="stroke:#61AFEF;stroke-width:1.0;"/><polygon fill="#61AFEF" points="386.48,305.79,385.5433,295.9858,384.0239,301.4348,378.5749,299.9155,386.48,305.79" style="stroke:#61AFEF;stroke-width:1.0;"/></g><!--MD5=[9c96e61e09915a2f710a6480e9a6a65a]
+link Wear to Android--><g id="link_Wear_Android"><path codeLine="47" d="M604.68,439.02 C579.46,455.02 541.46,479.14 513.19,497.08 " fill="none" id="Wear-to-Android" style="stroke:#61AFEF;stroke-width:1.0;"/><polygon fill="#61AFEF" points="508.74,499.9,518.483,498.4599,512.963,497.223,514.1999,491.7031,508.74,499.9" style="stroke:#61AFEF;stroke-width:1.0;"/></g><!--MD5=[988dbbf19ed33b86188096a65bce4146]
+link WearOS to Wear--><g id="link_WearOS_Wear"><path codeLine="48" d="M631.5,342.42 C631.5,357.96 631.5,380.78 631.5,397.66 " fill="none" id="WearOS-to-Wear" style="stroke:#61AFEF;stroke-width:1.0;"/><polygon fill="#61AFEF" points="631.5,402.69,635.5,393.69,631.5,397.69,627.5,393.69,631.5,402.69" style="stroke:#61AFEF;stroke-width:1.0;"/></g><!--MD5=[2deda1bbfa6aee9efb3c7b640d41ac55]
+link WatchOS to Wear--><g id="link_WatchOS_Wear"><path codeLine="49" d="M731.41,342.2 C710.59,358.41 679.4,382.7 657.42,399.82 " fill="none" id="WatchOS-to-Wear" style="stroke:#61AFEF;stroke-width:1.0;"/><polygon fill="#61AFEF" points="653.43,402.92,662.9881,400.5448,657.3745,399.8473,658.0719,394.2336,653.43,402.92" style="stroke:#61AFEF;stroke-width:1.0;"/></g><!--MD5=[7e4e62a857c66b3960992902489169cb]
+link TV to Tablet--><g id="link_TV_Tablet"><path codeLine="50" d="M457.5,132.42 C457.5,147.96 457.5,170.78 457.5,187.66 " fill="none" id="TV-to-Tablet" style="stroke:#61AFEF;stroke-width:1.0;"/><polygon fill="#61AFEF" points="457.5,192.69,461.5,183.69,457.5,187.69,453.5,183.69,457.5,192.69" style="stroke:#61AFEF;stroke-width:1.0;"/></g><!--MD5=[38b5afd24d7179b1aa468bf20de8b4f1]
+link AndroidTV to TV--><g id="link_AndroidTV_TV"><path codeLine="51" d="M408.5,35.42 C418.4,51.09 432.98,74.18 443.66,91.09 " fill="none" id="AndroidTV-to-TV" style="stroke:#61AFEF;stroke-width:1.0;"/><polygon fill="#61AFEF" points="446.56,95.69,445.1199,85.947,443.883,91.467,438.3631,90.2301,446.56,95.69" style="stroke:#61AFEF;stroke-width:1.0;"/></g><!--MD5=[928126c316054765bb9fbfd74590bc4a]
+link TvOS to TV--><g id="link_TvOS_TV"><path codeLine="52" d="M506.5,35.42 C496.6,51.09 482.02,74.18 471.34,91.09 " fill="none" id="TvOS-to-TV" style="stroke:#61AFEF;stroke-width:1.0;"/><polygon fill="#61AFEF" points="468.44,95.69,476.6369,90.2301,471.117,91.467,469.8801,85.947,468.44,95.69" style="stroke:#61AFEF;stroke-width:1.0;"/></g><!--MD5=[cc109ea2cc154ead660eb1039ac05298]
+@startuml
+!include https://raw.githubusercontent.com/ptrkcsk/one-dark-plantuml-theme/v1.0.0/theme.puml
+map "Android \n(default)" as Android {
+}
+map iOS {
+}
+map WebMobile {
+}
+map Tablet {
+}
+map AndroidTablet {
+}
+map IPad {
+}
+map Web {
+}
+map WebTablet {
+}
+map WebDesktop {
+}
+map MacOS {
+}
+map Desktop {
+}
+map Wear {
+}
+map WearOS {
+}
+map WatchOS {
+}
+map TV {
+}
+map AndroidTV {
+}
+map TvOS {
+}
+iOS - -> Android
+WebMobile - -> Web
+Tablet - -> IPad : if iOS
+Tablet - -> AndroidTablet : else
+AndroidTablet - -> Android
+IPad - -> iOS
+Web -> Android
+WebTablet - -> Web
+WebDesktop - -> Web
+MacOS - -> IPad
+Desktop - -> AndroidTablet
+Wear - -> Android
+WearOS - -> Wear
+WatchOS - -> Wear
+TV - -> Tablet
+AndroidTV - -> TV
+TvOS - -> TV
+@enduml
+
+@startuml
+
+
+
+
+
+skinparam backgroundColor #282c34
+
+skinparam {
+  ActivityBackgroundColor        #424856
+  ActivityBarColor               #Fdfdfd
+  ActivityBorderColor            #61afef
+  ActivityDiamondBackgroundColor #424856
+  ActivityDiamondBorderColor     #61afef
+  ActivityEndColor               #e06c75
+  ActivityStartColor             #98c379
+
+  ActorBackgroundColor        #424856
+  ActorBorderColor            #61afef
+  ActorStereotypeFontColor    #Fdfdfd
+
+  AgentBackgroundColor       #424856
+  AgentBorderColor           #Fdfdfd
+
+  
+  ArrowColor #61afef
+
+  ArtifactBackgroundColor     #424856
+  ArtifactBorderColor         #Fdfdfd
+
+  BackgroundColor #282c34
+  
+
+  BoundaryBackgroundColor     #424856
+  BoundaryBorderColor         #61afef
+  BoundaryStereotypeFontColor #Fdfdfd
+
+  
+  CaptionFontColor #Fdfdfd
+
+  CardBackgroundColor     #424856
+  CardBorderColor         #Fdfdfd
+  
+  CircledCharacterFontColor #282c34
+
+
+  ClassBackgroundColor   #424856
+  ClassBorderColor       #Fdfdfd
+  
+
+
+  CloudBorderColor     #Fdfdfd
+  
+  CollectionsBackgroundColor #424856
+  CollectionsBorderColor     #61afef
+
+  
+  ComponentBackgroundColor       #424856
+  ComponentBorderColor           #61afef
+
+  
+
+  ControlBackgroundColor #424856
+  ControlBorderColor     #61afef
+  ControlFontColor       #Fdfdfd
+  ControlStereotypeFontColor #Fdfdfd
+
+  DatabaseBorderColor           #Fdfdfd
+
+  DefaultFontColor #Fdfdfd
+  DefaultFontName -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+
+
+  
+
+
+  
+
+
+  EntityBackgroundColor #424856
+  EntityBorderColor     #61afef
+  
+
+  FileBackgroundColor #424856
+  FileBorderColor     #Fdfdfd
+
+
+ 
+  FolderBorderColor       #Fdfdfd
+  
+
+  FrameBorderColor           #Fdfdfd
+
+
+  InterfaceBackgroundColor       #424856
+  InterfaceBorderColor           #61afef
+
+  LegendBackgroundColor   #424856
+  LegendBorderColor       #Fdfdfd
+
+  
+  NodeBorderColor           #Fdfdfd
+  
+
+  NoteBackgroundColor   #e5c07b
+  NoteBorderColor       #282c34
+  NoteFontColor         #282c34
+  
+  ObjectBackgroundColor       #424856
+  ObjectBorderColor           #61afef
+  
+  PackageBorderColor           #Fdfdfd
+
+  
+  ParticipantBackgroundColor #424856
+  ParticipantBorderColor     #61afef
+  
+  PartitionBackgroundColor transparent
+  PartitionBorderColor     #Fdfdfd
+  
+  
+  QueueBackgroundColor       #424856
+  QueueBorderColor           #61afef
+  
+  
+  RectangleBorderColor           #Fdfdfd
+
+
+
+  
+  SequenceBoxBackgroundColor #424856
+  SequenceBoxBorderColor     #61afef
+
+
+  SequenceDividerBackgroundColor   #424856
+  SequenceDividerBorderColor       #Fdfdfd
+  
+  SequenceGroupBackgroundColor       #424856
+  SequenceGroupBorderColor           #Fdfdfd
+
+  SequenceLifeLineBackgroundColor   transparent
+  SequenceLifeLineBorderColor       #61afef
+
+  SequenceNewpageSeparatorColor  #Fdfdfd
+  
+  
+  SequenceReferenceBackgroundColor        transparent
+  SequenceReferenceBorderColor            #Fdfdfd
+  SequenceReferenceHeaderBackgroundColor #424856
+
+  
+  Shadowing false
+
+  StackBackgroundColor       #424856
+  StackBorderColor           #61afef
+
+  
+  StateBackgroundColor    #424856
+  StateBorderColor        #61afef
+  StateEndColor           #e06c75
+  StateStartColor         #98c379
+
+  StereotypeABackgroundColor   #61afef
+  StereotypeABorderColor       #61afef
+  StereotypeCBackgroundColor   #98c379
+  StereotypeCBorderColor       #98c379
+  StereotypeEBackgroundColor   #e5c07b
+  StereotypeEBorderColor       #e5c07b
+  StereotypeIBackgroundColor   #c678dd
+  StereotypeIBorderColor       #c678dd
+  
+  StorageBackgroundColor #424856
+  StorageBorderColor     #Fdfdfd
+  
+  
+  SwimlaneBorderColor            #Fdfdfd
+
+
+  UsecaseBackgroundColor       #424856
+  UsecaseBorderColor           #61afef
+  
+}
+
+map "Android \n(default)" as Android {
+}
+map iOS {
+}
+map WebMobile {
+}
+map Tablet {
+}
+map AndroidTablet {
+}
+map IPad {
+}
+map Web {
+}
+map WebTablet {
+}
+map WebDesktop {
+}
+map MacOS {
+}
+map Desktop {
+}
+map Wear {
+}
+map WearOS {
+}
+map WatchOS {
+}
+map TV {
+}
+map AndroidTV {
+}
+map TvOS {
+}
+iOS - -> Android
+WebMobile - -> Web
+Tablet - -> IPad : if iOS
+Tablet - -> AndroidTablet : else
+AndroidTablet - -> Android
+IPad - -> iOS
+Web -> Android
+WebTablet - -> Web
+WebDesktop - -> Web
+MacOS - -> IPad
+Desktop - -> AndroidTablet
+Wear - -> Android
+WearOS - -> Wear
+WatchOS - -> Wear
+TV - -> Tablet
+AndroidTV - -> TV
+TvOS - -> TV
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 22:31:30 IST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: IN
+--></g></svg>

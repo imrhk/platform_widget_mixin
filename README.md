@@ -164,6 +164,10 @@ class _PlatformNameWidgetState extends State<PlatformNameWidget>
 ```
 
 ## Additional information
+
+### Default relationship
+![Default Relationship](https://github.com/imrhk/platform_widget_mixin/blob/main/default_relations.svg )
+
 Please raise a issue/provide feedback in github repository.
 
 ## Licence
