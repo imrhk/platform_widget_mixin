@@ -10,11 +10,11 @@ pub add platform_widget_mixin
 ```
 
 ## Example Screenshots
-![Android Mobile](https://github.com/imrhk/platform_widget_mixin/screenshots/android_mobile.png.png )
+![Android Mobile](https://github.com/imrhk/platform_widget_mixin/blob/main/screenshots/android_mobile.png )
 
-![Android Wear](https://github.com/imrhk/platform_widget_mixin/screenshots/android_wear.png )
+![Android Wear](https://github.com/imrhk/platform_widget_mixin/blob/main/screenshots/android_wear.png )
 
-![Android TV](https://github.com/imrhk/platform_widget_mixin/screenshots/android_tv.png )
+![Android TV](https://github.com/imrhk/platform_widget_mixin/blob/main/screenshots/android_tv.png )
 
 ## Example code
 ```dart
