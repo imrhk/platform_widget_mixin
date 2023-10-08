@@ -1,31 +1,34 @@
 # platform_widget_mixin
+
 Plugin to decouple widgets based on various platform properties.
 
 ## Features
+
 Build different UIs for Android, iOS, Web, Desktop, Wear, TV etc without the if/else checks in your widgets.
 
 ## Getting started
+
 ```
 pub add platform_widget_mixin
 ```
 
 ## Example Screenshots
-![Android Mobile](https://github.com/imrhk/platform_widget_mixin/blob/main/screenshots/android_mobile.png )
 
-![Android Wear](https://github.com/imrhk/platform_widget_mixin/blob/main/screenshots/android_wear.png )
+![Android Mobile](https://github.com/imrhk/platform_widget_mixin/blob/main/screenshots/android_mobile.png)
 
-![Android TV](https://github.com/imrhk/platform_widget_mixin/blob/main/screenshots/android_tv.png )
+![Android Wear](https://github.com/imrhk/platform_widget_mixin/blob/main/screenshots/android_wear.png)
+
+![Android TV](https://github.com/imrhk/platform_widget_mixin/blob/main/screenshots/android_tv.png)
 
 ## Example code
+
 ```dart
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:platform_widget_mixin/platform_widget_mixin.dart';
-import 'package:wear/wear.dart';
 
 void main() async {
-  await initialize();
-  runApp(const MyApp());
+  runApp(const AdaptiveConfigurationWidget(child: MyApp()));
 }
 
 class MyApp extends StatelessWidget with PlatformWidgetMixin {
@@ -76,7 +79,7 @@ class HomePage extends StatelessWidget with PlatformWidgetMixin {
   }
 
   @override
-  Widget buildWear(BuildContext context, WearShape shape) {
+  Widget buildWear(BuildContext context) {
     return Scaffold(
       body: child,
     );
@@ -150,25 +153,25 @@ class _PlatformNameWidgetState extends State<PlatformNameWidget>
   Widget buildWebTablet(BuildContext context) => const Text('Web Tablet');
 
   @override
-  Widget buildWear(BuildContext context, WearShape wearShape) =>
-      const Text('Wear');
+  Widget buildWear(BuildContext context) => const Text('Wear');
 
   @override
-  Widget buildWatchOS(BuildContext context, WearShape shape) =>
-      const Text('Apple Watch');
+  Widget buildWatchOS(BuildContext context) => const Text('Apple Watch');
 
   @override
-  Widget buildWearOS(BuildContext context, WearShape shape) =>
-      const Text('Android Wear');
+  Widget buildWearOS(BuildContext context) => const Text('Android Wear');
 }
+
 ```
 
 ## Additional information
 
 ### Default relationship
-![Default Relationship](https://github.com/imrhk/platform_widget_mixin/blob/main/default_relations.svg )
+
+![Default Relationship](https://github.com/imrhk/platform_widget_mixin/blob/main/default_relations.svg)
 
 Please raise a issue/provide feedback in github repository.
 
 ## Licence
+
 Apache License 2.0

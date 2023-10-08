@@ -1,13 +1,13 @@
 name: platform_widget_mixin
 description: Plugin to decouple widgets based on various platform properties.
-version: 0.0.1
+version: 0.0.2
 
 repository: https://github.com/imrhk/platform_widget_mixin
 issue_tracker: https://github.com/imrhk/platform_widget_mixin/issues
 
 environment:
-  sdk: ">=2.18.4 <3.0.0"
-  flutter: ">=1.17.0"
+  sdk: ">=3.1.0 <4.0.0"
+  flutter: ">=3.13.0"
 
 dependencies:
   flutter:
@@ -15,7 +15,6 @@ dependencies:
   is_tv: ^0.0.1
   is_wear: ^0.0.1
   universal_io: ^2.0.4
-  wear: ^1.1.0
 
 dev_dependencies:
   flutter_lints: ^2.0.0

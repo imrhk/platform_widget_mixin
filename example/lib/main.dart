@@ -1,11 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:platform_widget_mixin/platform_widget_mixin.dart';
-import 'package:wear/wear.dart';
 
 void main() async {
-  await initialize();
-  runApp(const MyApp());
+  runApp(const AdaptiveConfigurationWidget(child: MyApp()));
 }
 
 class MyApp extends StatelessWidget with PlatformWidgetMixin {
@@ -56,7 +54,7 @@ class HomePage extends StatelessWidget with PlatformWidgetMixin {
   }
 
   @override
-  Widget buildWear(BuildContext context, WearShape shape) {
+  Widget buildWear(BuildContext context) {
     return Scaffold(
       body: child,
     );
@@ -130,14 +128,11 @@ class _PlatformNameWidgetState extends State<PlatformNameWidget>
   Widget buildWebTablet(BuildContext context) => const Text('Web Tablet');
 
   @override
-  Widget buildWear(BuildContext context, WearShape wearShape) =>
-      const Text('Wear');
+  Widget buildWear(BuildContext context) => const Text('Wear');
 
   @override
-  Widget buildWatchOS(BuildContext context, WearShape shape) =>
-      const Text('Apple Watch');
+  Widget buildWatchOS(BuildContext context) => const Text('Apple Watch');
 
   @override
-  Widget buildWearOS(BuildContext context, WearShape shape) =>
-      const Text('Android Wear');
+  Widget buildWearOS(BuildContext context) => const Text('Android Wear');
 }

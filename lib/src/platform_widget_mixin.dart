@@ -1,9 +1,9 @@
 import 'package:flutter/foundation.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:is_tv/is_tv.dart';
 import 'package:is_wear/is_wear.dart';
 import 'package:universal_io/io.dart';
-import 'package:wear/wear.dart';
 
 mixin PlatformWidgetMixin {
   // child widget
@@ -29,15 +29,13 @@ mixin PlatformWidgetMixin {
       }
       return buildTV(context);
     } else if (_config.isWear) {
-      return WatchShape(builder: (context, shape, _) {
-        if (_config.isAndroid) {
-          return buildWearOS(context, shape);
-        }
-        if (_config.isApple) {
-          return buildWatchOS(context, shape);
-        }
-        return buildWear(context, shape);
-      });
+      if (_config.isAndroid) {
+        return buildWearOS(context);
+      }
+      if (_config.isApple) {
+        return buildWatchOS(context);
+      }
+      return buildWear(context);
     } else if (_config.isDesktop) {
       if (_config.isWeb) {
         return buildWebDesktop(context);
@@ -54,7 +52,7 @@ mixin PlatformWidgetMixin {
         return buildAndroidTablet(context);
       }
       if (_config.isApple) {
-        return buildIOS(context);
+        return buildIPad(context);
       }
       assert(false, 'configuration didn\'t match $_config');
     } else if (_config.isMobile) {
@@ -95,12 +93,22 @@ mixin PlatformWidgetMixin {
   Widget buildWebDesktop(BuildContext context) => buildWeb(context);
   Widget buildMacOS(BuildContext context) => buildIPad(context);
   Widget buildDesktop(BuildContext context) => buildAndroidTablet(context);
-  Widget buildWear(BuildContext context, WearShape shape) =>
+  Widget buildWear(
+    BuildContext context,
+  ) =>
       buildAndroid(context);
-  Widget buildWearOS(BuildContext context, WearShape shape) =>
-      buildWear(context, shape);
-  Widget buildWatchOS(BuildContext context, WearShape shape) =>
-      buildWear(context, shape);
+  Widget buildWearOS(
+    BuildContext context,
+  ) =>
+      buildWear(
+        context,
+      );
+  Widget buildWatchOS(
+    BuildContext context,
+  ) =>
+      buildWear(
+        context,
+      );
   Widget buildTV(BuildContext context) => buildTablet(context);
   Widget buildAndroidTV(BuildContext context) => buildTV(context);
   Widget buildTvOS(BuildContext context) => buildTV(context);
@@ -108,7 +116,8 @@ mixin PlatformWidgetMixin {
 
 /// Method to initialize different properties
 /// This should be done before run app is called.
-Future<void> initialize([PlatformConfig? platformConfig]) async {
+Future<void> _initializeAdaptiveConfiguration(BuildContext context,
+    [PlatformConfig? platformConfig]) async {
   if (platformConfig != null) {
     _config = platformConfig;
     return;
@@ -116,10 +125,7 @@ Future<void> initialize([PlatformConfig? platformConfig]) async {
 
   WidgetsFlutterBinding.ensureInitialized();
   bool isWeb = kIsWeb;
-  bool isTablet = MediaQueryData.fromWindow(WidgetsBinding.instance.window)
-          .size
-          .shortestSide >
-      600;
+  bool isTablet = MediaQuery.of(context).size.shortestSide > 600;
   bool isWear = await IsWear().check().catchError((_) => false) ?? false;
   bool isApple = Platform.isIOS || Platform.isMacOS;
   bool isDesktop = Platform.isLinux || Platform.isWindows || Platform.isMacOS;
@@ -140,8 +146,9 @@ Future<void> initialize([PlatformConfig? platformConfig]) async {
   );
 }
 
-late PlatformConfig _config;
+late final PlatformConfig _config;
 
+@immutable
 class PlatformConfig {
   final bool isWeb;
   final bool isTablet;
@@ -152,7 +159,7 @@ class PlatformConfig {
   final bool isAndroid;
   final bool isMobile;
 
-  PlatformConfig({
+  const PlatformConfig({
     this.isWeb = false,
     this.isTablet = false,
     this.isTV = false,
@@ -162,15 +169,15 @@ class PlatformConfig {
     this.isAndroid = false,
     this.isMobile = false,
   }) : assert(
-            isWear |
-                isTablet |
-                isTV |
-                isWear |
-                isApple |
-                isDesktop |
-                isAndroid |
+            isWear ||
+                isTablet ||
+                isTV ||
+                isWear ||
+                isApple ||
+                isDesktop ||
+                isAndroid ||
                 isMobile,
-            'incorrect config');
+            'incorrect config _PlatformConfig(isWeb: $isWeb, isTablet: $isTablet, isTV: $isTV, isWear: $isWear, isApple: $isApple, isDesktop: $isDesktop, isAndroid: $isAndroid, isMobile: $isMobile)');
 
   @override
   String toString() {
@@ -183,4 +190,145 @@ String getPlatformConfig([Stdout? stdout]) {
     stdout.write(_config);
   }
   return _config.toString();
+}
+
+class AdaptiveConfigurationWidget extends StatefulWidget {
+  final Widget? child;
+  final Widget? loading;
+  final PlatformConfig? platformConfig;
+  const AdaptiveConfigurationWidget({
+    super.key,
+    this.child,
+    this.loading,
+    this.platformConfig,
+  });
+
+  @override
+  State<AdaptiveConfigurationWidget> createState() =>
+      _AdaptiveConfigurationWidgetState();
+}
+
+class _AdaptiveConfigurationWidgetState
+    extends State<AdaptiveConfigurationWidget> {
+  bool _isInitialized = false;
+  bool _isInitializing = false;
+
+  @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    if (_isInitialized || _isInitializing) return;
+    _isInitializing = true;
+    _initializeAdaptiveConfiguration(context, widget.platformConfig).then((_) {
+      setState(() {
+        _isInitialized = true;
+      });
+    }).catchError((_) {
+      {
+        setState(() {
+          _isInitialized = true;
+        });
+      }
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Visibility(
+      visible: _isInitialized,
+      replacement: widget.loading ?? const SizedBox.shrink(),
+      child: widget.child ?? const SizedBox.shrink(),
+    );
+  }
+}
+
+T getAdaptiveValue<T>({
+  required T forAndroid,
+  T? forIOS,
+  T? forWebMobile,
+  T? forTablet,
+  T? forAndroidTablet,
+  T? forIPad,
+  T? forWeb,
+  T? forWebTablet,
+  T? forWebDesktop,
+  T? forMacOS,
+  T? forDesktop,
+  T? forWear,
+  T? forWearOS,
+  T? forWatchOS,
+  T? forTV,
+  T? forAndroidTV,
+  T? forTvOS,
+}) {
+  final getAndroidValue = forAndroid;
+  final getIOSValue = forIOS ?? getAndroidValue;
+  final getWebValue = forWeb ?? getAndroidValue;
+  final getWebMobileValue = forWebMobile ?? getWebValue;
+  final getAndroidTabletValue = forAndroidTablet ?? getAndroidValue;
+  final getIpadValue = forIPad ?? getIOSValue;
+  final getTabletValue = forTablet ??
+      switch (Platform.isIOS) {
+        true => getIpadValue,
+        false => getAndroidTabletValue,
+      };
+  final getWebTabletValue = forWebTablet ?? getWebValue;
+  final getWebDesktopValue = forWebDesktop ?? getWebValue;
+  final getMacOSValue = forMacOS ?? getIpadValue;
+  final getDesktopValue = forDesktop ?? getAndroidTabletValue;
+  final getWearValue = forWear ?? getAndroidValue;
+  final getWearOSValue = forWearOS ?? getWearValue;
+  final getWatchOSValue = forWatchOS ?? getWearValue;
+  final getTVValue = forTV ?? getTabletValue;
+  final getAndroidTVValue = forAndroidTV ?? getTVValue;
+  final getTVOSValue = forTvOS ?? getTVValue;
+
+  if (_config.isTV) {
+    if (_config.isAndroid) {
+      return getAndroidTVValue;
+    }
+    if (_config.isApple) {
+      return getTVOSValue;
+    }
+    return getTVValue;
+  } else if (_config.isWear) {
+    if (_config.isAndroid) {
+      return getWearOSValue;
+    } else if (_config.isApple) {
+      return getWatchOSValue;
+    } else {
+      return getWearValue;
+    }
+  } else if (_config.isDesktop) {
+    if (_config.isWeb) {
+      return getWebDesktopValue;
+    }
+    if (_config.isApple) {
+      return getMacOSValue;
+    }
+    return getDesktopValue;
+  } else if (_config.isTablet) {
+    if (_config.isWeb) {
+      return getWebTabletValue;
+    }
+    if (_config.isAndroid) {
+      return getAndroidTabletValue;
+    }
+    if (_config.isApple) {
+      return getIpadValue;
+    }
+    assert(false, 'configuration didn\'t match $_config');
+  } else if (_config.isMobile) {
+    if (_config.isWeb) {
+      return getWebMobileValue;
+    }
+    if (_config.isAndroid) {
+      return getAndroidValue;
+    }
+    if (_config.isApple) {
+      return getIOSValue;
+    }
+    assert(false, 'configuration didn\'t match $_config');
+  }
+
+  return getAndroidValue;
 }
